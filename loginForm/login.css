@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: black;
+    color:white;
+}
+.ht-100{
+    height:100vh;
+}
+.twiter{
+    max-height:450px;
+    max-width:450px;
+}
+.wd-300{
+    width:300px;
+}
+.plighter{
+    font-size: small;
+    font-weight: 50;
+}
+.every-center{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.lastpara{
+    font-size: 15px;
+}
+.sign-in{
+    opacity:1;
+    transition: opacity 0.3s ease;
+}
+.sign-in:hover{
+cursor:pointer;
+    opacity:0.5;
+}
+.line{
+    width:40%;
+    border: 1px solid rgb(47 51 54);;
+}
+.ht-50{height: 50px;}
+.apple{height:40px;}
+.happen{
+    font-size: 5rem;
+}
+@media(max-width:768px){
+    .twiter{
+        max-width:100px;
+        max-height:100px;
+    }
+    .ht-100{
+        height:50vh;
+    }
+    .happen{
+        font-size:4rem;
+    }
+}
+@media(max-width:500px){
+    .twiter{
+        height:40px;
+        width:40px;
+    }
+    .happen{
+        font-size:2rem;
+    }
+}
